@@ -5,5 +5,8 @@ dash_html_components
 dash_bootstrap_components
 pandas
 plotly
-sklearn
+accuracy_score
+recall_score
+precision_score
+f1_score
 
