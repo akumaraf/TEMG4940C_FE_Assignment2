@@ -10,6 +10,7 @@ from sklearn.metrics import accuracy_score, recall_score, precision_score, f1_sc
 
 # Initialize the Dash app with a Bootstrap theme
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], suppress_callback_exceptions=True)
+server=app.server
 
 # Read the data from "data.csv" using pandas
 data = pd.read_csv('data.csv')
